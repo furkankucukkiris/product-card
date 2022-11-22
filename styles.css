@@ -97,6 +97,12 @@ body {
     color: white;
     font-size: 1.8vh;
     font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+.cart-button:hover {
+    background-color: hsl(157, 38%, 19%);
+    cursor: pointer;
 }
 
 .cart-logo {
