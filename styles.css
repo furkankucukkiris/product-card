@@ -40,13 +40,18 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: -60px;
 }
-
+.top-text-area{
+    height: 20px;
+    width: 200px;
+    font-family: 'Montserrat';
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
 .top-text{
-    font-size: 2vh;
-    color: rgb(125, 125, 125);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-size: 1.7vh;
+    color: rgb(165, 165, 165);
 }
 
 .title {
@@ -59,12 +64,12 @@ body {
 }
 
 .description {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 400;
+    word-spacing: 3px;
     color: rgb(114, 114, 114);
     margin-top: 1vh;
     font-family: 'Montserrat', sans-serif;
-    font-size: large;
 }
 
 .price {
@@ -80,7 +85,7 @@ body {
 }
 
 .lil-price {
-    color: rgb(114, 114, 114);
+    color: rgb(127, 127, 127);
     text-decoration: line-through;
     padding-top: 10px;
 }
@@ -114,6 +119,7 @@ body {
     width: 30vh;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 375px) {
